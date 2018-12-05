@@ -1,0 +1,3 @@
+本代码基于requests，Beautifulsoup爬取的猫眼电影评分Top100的电影名称、时间、评分、图片等信息
+将爬取的信息写入了result.txt中
+爬虫按照页码爬取故不复杂，用了yeild,json将字典序列化方法
